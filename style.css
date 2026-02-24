@@ -23,7 +23,7 @@ body {
   justify-content: center;
   align-items: center; */
   transition: background-color 1s ease-in-out;
-  background-color: #ff0000;
+  background-color: rgb(255, 255, 255);
   /* background-image: url('./img/tiri_oracle1.jpg'); */
   background-repeat: no-repeat;
   background-position: center;
@@ -34,19 +34,18 @@ body {
 /* text ================================================ */
 #mainText1 {
   position: fixed;
-  top: 30px;
+  top: 20px;
   left: 20px;
   rotate: 0deg;
-
   font-family: 'variableFont';
-  font-size: 200px;
-  color: black;
+  font-size: 230px;
+  color: rgb(255, 0, 174);
   text-align: left;
   letter-spacing: 0px;
-  line-height: 220px;
+  line-height: 210px;
   /* text-wrap: nowrap; */
 
-	font-variation-settings: "opsz" 144, "wght" 1000, "GRAD" 150, "wdth" 151, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+	font-variation-settings: "opsz" 144, "wght" 600, "GRAD" 150, "wdth" 151, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
   transition: rotate 1s ease-in-out, font-size 1s ease-in-out, font-variation-settings 1s ease-in-out;
 }
 
@@ -55,26 +54,25 @@ body {
   position: fixed;
   bottom: 0;
   right: 0;
-
   font-family: 'variableFont';
-  font-size: 200px;
-  color: black;
+  font-size: 230px;
+  color: rgb(255, 0, 174);
   text-align: right;
   letter-spacing: 0;
   line-height: 200px;
   /* text-wrap: nowrap; */
   
-	font-variation-settings: "opsz" 144, "wght" 1000, "GRAD" 150, "wdth" 151, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+	font-variation-settings: "opsz" 144, "wght" 600, "GRAD" 150, "wdth" 151, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
   transition: font-size 1s ease-in-out, font-variation-settings 1s ease-in-out;
 }
 
 #mainText3 {
   position: fixed;
-  bottom: 150px;
-  left: 0;
+  top: 450px;
+  left: 100px;
   font-family: 'tiny';
-  font-size: 200px;
-  color: yellow;
+  font-size: 250px;
+  color: blue;
   text-align: left;
   letter-spacing: 0;
   line-height: 200px;
@@ -86,12 +84,12 @@ body {
 #mainText4 {
   position: fixed;
   top: 200px;
-  right: 10px;
+  left: 100px;
   font-family: 'variableFont';
-  font-size: 100px;
-  color: black;
+  font-size: 0px;
+  color: white;
   text-align: left;
-  letter-spacing: 20px;
+  letter-spacing: 0px;
   line-height: 100px;
   text-wrap: nowrap;
   font-variation-settings: "opsz" 50, "wght" 100, "GRAD" 150, "wdth" 151, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
@@ -128,6 +126,39 @@ body {
 /* Image ================================================ */
 
 .lucy {
+  width: 400px;
+  display: block;
+  position: fixed;   /* ⭐关键 */
+  top: 100px;
+  left: 1200px;
+  rotate: -10deg;
+  z-index: -1;
+}
+
+.tiri {
+  width: 300px;
+  display: block;
+  position: fixed;   /* ⭐关键 */
+  top: 600px;
+  left: 50px;
+  rotate: 10deg;
+  z-index: -1;
+}
+
+.map {
+  width: 300px;
+  display: none;
+  position: fixed;   /* ⭐关键 */
+  top: 400px;
+  left: 200px;
+  z-index: -1;
+}
+
+.luna {
   width: 200px;
   display: none;
+  position: fixed; /* 或 absolute */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

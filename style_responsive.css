@@ -5,38 +5,67 @@
     background-color: #00ff00;
   }
   #mainText1 {
-    bottom:10px;
-    rotate: 15deg;
-    left:0px;
+    top:180px;
+    left:100px;
     text-align: left;
-    font-size: 50px;
-    line-height: 50px;
-    font-variation-settings: "opsz" 100, "wght" 100, "GRAD" 100, "wdth" 151, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+    font-size: 40px;
+    line-height: 40px;
+    font-variation-settings: "opsz" 100, "wght" 300, "GRAD" 100, "wdth" 151, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
   }
   #mainText2 {
     font-size: 150px;
-    right:0px;
-    font-variation-settings: "opsz" 300, "wght" 300, "GRAD" 200, "wdth" 200, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+    top:0px;
+    left:0px;
+    font-variation-settings: "opsz" 300, "wght" 400, "GRAD" 200, "wdth" 200, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
   }
   #mainText3 {
-    font-size: 200px;
+    font-size: 0px;
     font-variation-settings: "wght" 200;
   }
+  .lucy {
+  display: none;
+  bottom:20px;
+  }
+  .tiri{
+    display:none;
+  }
 }
-@media only screen and (max-width: 700px) {
+
+
+
+@media only screen and (max-width: 800px) {
   body {
-    background-color: blue;
+    background-color: rgb(0, 38, 255);
   }
   #mainText1 {
     color: aliceblue;
-    font-size:150px;
+    font-size: 200px;
+    font-family: "tiny";
+    font-variation-settings: "wght" 66;
   }
   #mainText2 {
-    font-size: 100px;
+    font-size: 200px;
+    color:aliceblue;
+    font-family:"tiny";
+    font-variation-settings: "wght" 66;
     right:0px;
   }
   #mainText3 {
     font-size: 0px;
+  }
+  .luna {
+  display: none;
+  }
+  .lucy{
+    display:none;
+  }
+.tiri{
+    display:none;
+  }
+  .map{
+    display:block;
+    top:350px;
+    left:200px;
   }
 }
 
